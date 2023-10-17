@@ -1,0 +1,46 @@
+.container{
+    /* width: 100vw;    */
+    padding: 10px 0px;
+}
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+.flexRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.movieTableContainer{
+    border: 1px solid #ededed;
+    border-bottom: 2px solid #cdcdcd;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding:0px 15px 5px 15px;
+}
+
+.inputContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.input{
+    width: 90%;
+    margin-left: 1em;
+    padding: 2px;
+    border:1px solid #ededed;
+    border-radius: 5px;
+}
+
+.searchIcon {
+    color: white;
+    margin-right: 10px;
+    background-color: #524dd1;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+}   

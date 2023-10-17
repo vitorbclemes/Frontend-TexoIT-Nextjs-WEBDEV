@@ -1,0 +1,41 @@
+.container {
+    margin: 15px 0px;
+    border: 1px solid #ededed;
+    border-bottom: 2px solid #cdcdcd;
+    border-radius: 5px;
+    padding: 0px 20px;
+}
+.pagination{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.inputContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.input{
+    width: 90%;
+    margin-left: 1em;
+    padding: 2px;
+    border:1px solid #ededed;
+    border-radius: 5px;
+}
+
+.searchIcon {
+    color: white;
+    margin-right: 10px;
+    background-color: #524dd1;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+}   
